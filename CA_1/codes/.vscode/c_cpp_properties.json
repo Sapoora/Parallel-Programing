@@ -1,0 +1,17 @@
+{
+  "configurations": [
+      {
+          "name": "linux-gcc-x64",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/usr/local/include/opencv4" // Path to OpenCV headers
+          ],
+          "compilerPath": "/usr/bin/g++", // Use g++ for C++ projects
+          "cStandard": "c11",             // Set C standard
+          "cppStandard": "c++17",         // Set C++ standard
+          "intelliSenseMode": "linux-gcc-x64",
+          "compilerArgs": []
+      }
+  ],
+  "version": 4
+}
