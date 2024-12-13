@@ -9,24 +9,21 @@ This project is designed to help us practice and learn parallel programming tech
 
 2. **Outlier Detection in Data Arrays**:
    - **Objective**: Identify outliers in an array of floating-point numbers using the z-score formula:
-     \[
-     z = \frac{x - \text{mean}}{\sigma}
-     \]
-     Any data point with \( z > 2.5 \) is classified as an outlier.
+     <img width="166" alt="Screenshot 1403-09-23 at 10 35 17" src="https://github.com/user-attachments/assets/891a805e-9a03-4b66-b0e0-c222701c9e11" />
+
+     Any data point with ( z > 2.5 ) is classified as an outlier.
    - **Challenges**: Efficient computation of the mean and standard deviation, especially for large datasets.
 
 3. **Run-Length Encoding (RLE) Compression**:
    - **Objective**: Implement RLE, a data compression technique that reduces the size of a string by replacing repeated characters with a single character followed by the count of repetitions.
    - **Challenges**: Handle edge cases (e.g., very short or long runs) and calculate the compression ratio effectively:
-     \[
-     \text{Compression Ratio} = \frac{\text{Uncompressed Size}}{\text{Compressed Size}}
-     \]
+     <img width="422" alt="Screenshot 1403-09-23 at 10 37 57" src="https://github.com/user-attachments/assets/0018c8f5-5cca-45bb-9792-818b3dac06ff" />
+
 
 4. **Motion Detection in Video Frames**:
    - **Objective**: Detect motion between consecutive video frames using the formula:
-     \[
-     \text{Motion Frame} = |\text{Current Frame} - \text{Previous Frame}|
-     \]
+     <img width="503" alt="Screenshot 1403-09-23 at 10 38 11" src="https://github.com/user-attachments/assets/61d83e91-7f12-48fe-a78a-fe195ddb8dfb" />
+
    - **Challenges**: Process frames in real-time and manage computational load.
 
 ---
@@ -52,31 +49,13 @@ This project is designed to help us practice and learn parallel programming tech
 
 4. **Development Environment**:
    - Compatible with **Windows** and **Linux** systems.
-   - Use any IDE or text editor that supports C/C++ (e.g., Visual Studio, CLion, Code::Blocks).
+   - Use any IDE or text editor that supports C/C++ (e.g., Visual Studio).
 
 5. **Execution Requirements**:
    - Implement both serial and parallel versions of the code.
-   - Generate a detailed report explaining:
-     - The achieved **speedup** in parallel execution.
-     - Justifications for chosen optimizations.
+   - The achieved **speedup** in parallel execution.
+   - Justifications for chosen optimizations.
 
 ---
-
-### **Submission Requirements**
-
-1. **Code**:
-   - Fully functional implementations for all tasks.
-   - Include a serial and optimized parallel version of each.
-
-2. **Report**:
-   - Discuss your approach, results, and conclusions.
-   - Include speedup ratios, insights on performance, and lessons learned.
-
-3. **Environment**:
-   - Ensure your program compiles and runs on Linux or Windows.
-   - Clearly document the compilation and execution steps.
-
-4. **Collaboration**:
-   - If working in a group, include the names and IDs of all contributors.
 
 This project integrates theoretical knowledge with practical application, fostering a deeper understanding of parallel programming techniques while emphasizing performance optimization.
